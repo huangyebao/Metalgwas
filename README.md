@@ -5,6 +5,9 @@
 
 METAL使用说明文档:https://genome.sph.umich.edu/wiki/METAL_Documentation
 
+
+示例代码:
+
 install.packages("remotes")
 
 remotes::install_github("huangyebao/Metalgwas")
