@@ -3,9 +3,9 @@
 
 软件和示例数据下载：https://csg.sph.umich.edu/abecasis/Metal/download/
 
-install.packages("devtools")
+install.packages("remotes")
 
-devtools::install_github("huangyebao/Metalgwas")
+remotes::install_github("huangyebao/Metalgwas")
 
 file1 <- system.file("data", "data1.txt", package = "Metalgwas")
 
