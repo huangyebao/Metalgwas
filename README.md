@@ -1,5 +1,6 @@
 # Metalgwas
 使用METAL软件对GWAS进行meta分析
+
 软件和示例数据下载：https://csg.sph.umich.edu/abecasis/Metal/download/
 
 install.packages("devtools")
