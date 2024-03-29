@@ -21,5 +21,4 @@ data2 <- data.table::fread(file2)
 
 head(data2)
 
-Metalgwas::METAL_gwas(GWASfile =c(file1,file2), 
-Metal_path = "./metal/metal.exe",save_path = "./", GWAS_name = "METAL_gwas", type = "outcome",Analysis_Scheme = "SE", heterogeneity = TRUE, Average_FREQ = TRUE, MinMax_FREQ = TRUE, Filter_N = FALSE, Filter_MAF = FALSE, Genomic_Control_Correction = FALSE, Sample_Overlap_Correction = FALSE)
+Metalgwas::METAL_gwas(GWASfile =c(file1,file2), Metal_path = "./metal/metal.exe",save_path = "./", GWAS_name = "METAL_gwas", type = "outcome",Analysis_Scheme = "SE", heterogeneity = TRUE, Average_FREQ = TRUE, MinMax_FREQ = TRUE, Filter_N = FALSE, Filter_MAF = FALSE, Genomic_Control_Correction = FALSE, Sample_Overlap_Correction = FALSE)
