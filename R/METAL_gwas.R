@@ -8,16 +8,16 @@
 #' @param GWASfile 字符向量，包含需要meta分析的所有TwoSampleMR格式的完整GWAS文件路径，注意必须是相同type类型。
 #' @param Metal_path METAL软件的可执行文件路径，例如"./metal.exe"。
 #' @param GWAS_name 输出文件的文件名。
-#' @param save_path 文件保存路径。
+#' @param save_path 输出文件保存路径。
 #' @param type TwoSampleMR格式数据类型，outcome或exposure。
 #' @param Analysis_Scheme 指定分析加权方法，samplesize或者SE。samplesize表示基于权重（通常为样本量）和效应方向，跨研究合并p值。
 #' SE表示使用相应标准误差的倒数对效应大小估计值进行加权。
 #' @param heterogeneity TRUE或FALSE，是否进行异质性分析。
-#' @param Average_FREQ TRUE或FALSE，是否计算平均频率。
-#' @param MinMax_FREQ TRUE或FALSE，是否计算最小和最大频率。
-#' @param Filter_N 数值或FALSE，如果为数值，则添加一个基于样本数量的过滤。如果为FALSE，则不添加此过滤。
+#' @param Average_FREQ TRUE或FALSE，是否计算等位基因平均频率。
+#' @param MinMax_FREQ TRUE或FALSE，是否计算等位基因最小和最大频率。
+#' @param Filter_N 数值或FALSE，如果为数值，则添加一个基于样本数量的过滤值。如果为FALSE，则不对此过滤。
 #' @param Filter_MAF 数值或FALSE，如果为数值，则添加一个基于次要等位基因频率(MAF)的过滤值，一般设置为0.01。
-#' 如果为FALSE，则不添加此过滤。
+#' 如果为FALSE，则不对此过滤。
 #' @param Genomic_Control_Correction TRUE或FALSE，是否进行基因组控制校正。
 #' @param Sample_Overlap_Correction TRUE或FALSE，是否进行样本重叠校正。
 #' @import dplyr
